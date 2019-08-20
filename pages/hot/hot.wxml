@@ -1,0 +1,28 @@
+<view class='content'>
+<swiper indicator-dots="{{indicatorDots}}"
+    autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}">
+    <block wx:for="{{news}}">
+        <swiper-item>
+        <image src="{{item.thumbnail}}" class="slide-image" style='width:100%'/>
+        </swiper-item>
+    </block>
+</swiper>
+<block wx:for='{{news}}'>
+    <view class='movie' bindtap='detail' id='{{item.news_id}}'>
+        <view class='pic'>
+            <image src='{{item.thumbnail}}' mode='aspectFit'/>
+        </view>
+        <view class='news-info'>
+            <view class='base'>
+                <text>{{item.title}}</text>
+            </view>
+        </view>
+    </view>
+    <view class='hr'></view>
+</block>
+</view>
+<view class="body-view">
+  <loading hidden="{{hidden}}" bindchange="loadingChange">
+    加载中...
+  </loading>
+</view>

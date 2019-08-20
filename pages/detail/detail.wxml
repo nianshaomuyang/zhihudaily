@@ -1,0 +1,18 @@
+<view class='content'>
+    <view class='backtitle'>
+        <view class='title'>
+            <text>{{title}}</text>
+        </view>
+    </view>
+    <view class='hr'></view>
+    <view class='backarticle'>
+        <view class='article'>
+            <text>{{body}}</text>
+        </view>
+    </view>
+</view>
+<view class="body-view">
+  <loading hidden="{{hidden}}" bindchange="loadingChange">
+    加载中...
+  </loading>
+</view>

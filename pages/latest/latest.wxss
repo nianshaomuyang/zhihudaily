@@ -1,0 +1,29 @@
+.content{
+    background-color:  rgb(19, 87, 190);
+    height:100%;
+}
+.movie{
+    display: flex;
+    flex-direction: row;
+}
+.pic image{
+    width: 100px;
+    height: 150px;
+}
+.news-info{
+    padding-left: 20px;
+}
+.base{
+    color: #FFFFFF;
+    font-size: 20px;
+    padding-top: 20px;
+    line-height: 50px;
+}
+.hr{
+    height: 2px;
+    width: 100%;
+    background-color: black;
+    border-top: white solid 1px;
+    border-bottom:  white solid 1px;
+    opacity: 0.2;
+}

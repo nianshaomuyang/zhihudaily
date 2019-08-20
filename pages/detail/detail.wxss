@@ -1,0 +1,33 @@
+.content{
+    background-color: #feffff;
+    height:100%;
+}
+.backtitle{
+    padding: 25px 20px; 
+    background: #f9f9f9;
+ }
+.title{ 
+    font-size: 18px; 
+    line-height: 25px; 
+    color: #000; 
+    font-weight: 600; 
+}
+.hr{
+    height: 2px;
+    width: 100%;
+    background-color: black;
+    border-top: white solid 1px;
+    border-bottom: white solid 1px;
+    opacity: 0.2;
+}
+.backarticle{
+    padding: 25px 20px;
+}
+.article{
+    color: black;
+    font-size: 20px;
+    margin: 20px 0; 
+    padding-top: 20px;
+    line-height: 50px;
+}
+

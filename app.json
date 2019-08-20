@@ -1,0 +1,30 @@
+{
+    "pages": [
+        "pages/hot/hot",
+        "pages/latest/latest",
+        "pages/detail/detail"
+    ],
+   
+    "tabBar": {
+        
+        "color": "#dddddd",
+        "selectedColor": "#3cc51f",
+        "borderStyle": "black",
+        "backgroundColor": "#0080FF",
+        "list": [{
+        "pagePath": "pages/hot/hot",
+        "text": "最热"
+        },{
+        "pagePath": "pages/latest/latest",
+        "text": "最新"
+    }
+        ]
+    },
+    "window": {
+        "backgroundTextStyle": "light",
+        "navigationBarBackgroundColor": "#0080FF",
+        "navigationBarTitleText": "知乎日报",
+        "navigationBarTextStyle": "white"
+    },
+    "sitemapLocation": "sitemap.json"
+}

@@ -1,0 +1,33 @@
+<view class='content'>
+<block wx:for='{{new_news}}'>
+    <view class='movie' bindtap='detail' id='{{item.id}}'>
+        <view class='pic'>
+            <image src='{{item.images[0]}}' mode='aspectFit'/>
+        </view>
+        <view class='news-info'>
+            <view class='base'>
+                <text>{{item.title}}</text>
+            </view>
+        </view>
+    </view>
+    <view class='hr'></view>
+</block>
+<block wx:for='{{news}}'>
+    <view class='movie' bindtap='detail' id='{{item.id}}'>
+        <view class='pic'>
+            <image src='{{item.image}}' mode='aspectFit'/>
+        </view>
+        <view class='news-info'>
+            <view class='base'>
+                <text>{{item.title}}</text>
+            </view>
+        </view>
+    </view>
+    <view class='hr'></view>
+</block>
+</view>
+<view class="body-view">
+  <loading hidden="{{hidden}}" bindchange="loadingChange">
+    加载中...
+  </loading>
+</view>
