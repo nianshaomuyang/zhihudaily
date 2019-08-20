@@ -19,3 +19,12 @@
 ```
 $ git clone https://github.com/nianshaomuyang/zhihudaily.git
 ```
+##效果图
+-   -   - 
+![gif](./images/example.gif)
+
+![1](./images/1.PNG)
+
+![2](./images/2.PNG)
+
+![3](./images/3.PNG)
